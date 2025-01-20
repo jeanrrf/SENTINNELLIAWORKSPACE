@@ -1,0 +1,295 @@
+2025-01-20 16:01:06,970 - DEBUG - Changed working directory to script location
+2025-01-20 16:01:08,467 - INFO - Executando: Iniciando backend...
+2025-01-20 16:01:08,467 - INFO - Executando: start cmd /c "cd /d m:\SS_SENTINNELL_WOK_FONTE\SENTINNELLIAWORKSPACE\backend && npm run start"
+2025-01-20 16:01:09,710 - INFO - Executado
+2025-01-20 16:02:24,357 - INFO - Executando: Iniciando frontend...
+2025-01-20 16:02:24,461 - INFO - Executando: start cmd /c "cd /d m:\SS_SENTINNELL_WOK_FONTE\SENTINNELLIAWORKSPACE\src && npm start"
+2025-01-20 16:02:30,033 - INFO - Executado
+2025-01-20 16:02:34,731 - INFO - Executando: Construindo frontend...
+2025-01-20 16:02:34,767 - INFO - Executando: start cmd /c "cd /d m:\SS_SENTINNELL_WOK_FONTE\SENTINNELLIAWORKSPACE\src && npm run build"
+2025-01-20 16:02:39,325 - INFO - Executado
+2025-01-20 16:02:41,734 - INFO - Executando: Corrigindo vulnerabilidades do npm...
+2025-01-20 16:02:41,735 - INFO - Executando: start cmd /c "cd /d m:\SS_SENTINNELL_WOK_FONTE\SENTINNELLIAWORKSPACE\src && npm audit fix --force"
+2025-01-20 16:02:45,101 - INFO - Executado
+2025-01-20 16:04:08,931 - DEBUG - Changed working directory to script location
+2025-01-20 16:04:10,756 - INFO - Executando: Iniciando backend...
+2025-01-20 16:04:10,759 - INFO - Executando: cd /d m:\SS_SENTINNELL_WOK_FONTE\SENTINNELLIAWORKSPACE\backend && npm run start
+2025-01-20 16:04:11,756 - INFO - Erro: npm error Missing script: "start"
+npm error
+npm error Did you mean one of these?
+npm error   npm star # Mark your favorite packages
+npm error   npm stars # View packages marked as favorites
+npm error
+npm error To see a list of scripts, run:
+npm error   npm run
+npm error A complete log of this run can be found in: C:\Users\Jean Rosso\AppData\Local\npm-cache\_logs\2025-01-20T19_04_11_286Z-debug-0.log
+2025-01-20 16:04:18,346 - INFO - Executando: Instalando dependências do backend...
+2025-01-20 16:04:18,347 - INFO - Executando: cd /d m:\SS_SENTINNELL_WOK_FONTE\SENTINNELLIAWORKSPACE\backend && pip install -r requirements.txt
+2025-01-20 16:04:19,804 - INFO - Requirement already satisfied: flask==2.0.1 in m:\ss_sentinnell_wok_fonte\sentinnelliaworkspace\.venv\lib\site-packages (from -r requirements.txt (line 1)) (2.0.1)
+2025-01-20 16:04:19,806 - INFO - Requirement already satisfied: requests==2.26.0 in m:\ss_sentinnell_wok_fonte\sentinnelliaworkspace\.venv\lib\site-packages (from -r requirements.txt (line 2)) (2.26.0)
+2025-01-20 16:04:19,809 - INFO - Requirement already satisfied: Werkzeug>=2.0 in m:\ss_sentinnell_wok_fonte\sentinnelliaworkspace\.venv\lib\site-packages (from flask==2.0.1->-r requirements.txt (line 1)) (3.1.3)
+2025-01-20 16:04:19,812 - INFO - Requirement already satisfied: Jinja2>=3.0 in m:\ss_sentinnell_wok_fonte\sentinnelliaworkspace\.venv\lib\site-packages (from flask==2.0.1->-r requirements.txt (line 1)) (3.1.5)
+2025-01-20 16:04:19,815 - INFO - Requirement already satisfied: itsdangerous>=2.0 in m:\ss_sentinnell_wok_fonte\sentinnelliaworkspace\.venv\lib\site-packages (from flask==2.0.1->-r requirements.txt (line 1)) (2.2.0)
+2025-01-20 16:04:19,818 - INFO - Requirement already satisfied: click>=7.1.2 in m:\ss_sentinnell_wok_fonte\sentinnelliaworkspace\.venv\lib\site-packages (from flask==2.0.1->-r requirements.txt (line 1)) (8.1.8)
+2025-01-20 16:04:19,823 - INFO - Requirement already satisfied: urllib3<1.27,>=1.21.1 in m:\ss_sentinnell_wok_fonte\sentinnelliaworkspace\.venv\lib\site-packages (from requests==2.26.0->-r requirements.txt (line 2)) (1.26.20)
+2025-01-20 16:04:19,826 - INFO - Requirement already satisfied: certifi>=2017.4.17 in m:\ss_sentinnell_wok_fonte\sentinnelliaworkspace\.venv\lib\site-packages (from requests==2.26.0->-r requirements.txt (line 2)) (2024.12.14)
+2025-01-20 16:04:19,830 - INFO - Requirement already satisfied: charset-normalizer~=2.0.0 in m:\ss_sentinnell_wok_fonte\sentinnelliaworkspace\.venv\lib\site-packages (from requests==2.26.0->-r requirements.txt (line 2)) (2.0.12)
+2025-01-20 16:04:19,834 - INFO - Requirement already satisfied: idna<4,>=2.5 in m:\ss_sentinnell_wok_fonte\sentinnelliaworkspace\.venv\lib\site-packages (from requests==2.26.0->-r requirements.txt (line 2)) (3.10)
+2025-01-20 16:04:19,842 - INFO - Requirement already satisfied: colorama in m:\ss_sentinnell_wok_fonte\sentinnelliaworkspace\.venv\lib\site-packages (from click>=7.1.2->flask==2.0.1->-r requirements.txt (line 1)) (0.4.6)
+2025-01-20 16:04:19,852 - INFO - Requirement already satisfied: MarkupSafe>=2.0 in m:\ss_sentinnell_wok_fonte\sentinnelliaworkspace\.venv\lib\site-packages (from Jinja2>=3.0->flask==2.0.1->-r requirements.txt (line 1)) (3.0.2)
+2025-01-20 16:04:20,226 - INFO - Executado
+2025-01-20 16:04:31,486 - INFO - Executando: Iniciando backend...
+2025-01-20 16:04:31,488 - INFO - Executando: cd /d m:\SS_SENTINNELL_WOK_FONTE\SENTINNELLIAWORKSPACE\backend && npm run start
+2025-01-20 16:04:32,484 - INFO - Erro: npm error Missing script: "start"
+npm error
+npm error Did you mean one of these?
+npm error   npm star # Mark your favorite packages
+npm error   npm stars # View packages marked as favorites
+npm error
+npm error To see a list of scripts, run:
+npm error   npm run
+npm error A complete log of this run can be found in: C:\Users\Jean Rosso\AppData\Local\npm-cache\_logs\2025-01-20T19_04_32_007Z-debug-0.log
+2025-01-20 16:06:17,491 - DEBUG - Changed working directory to script location
+2025-01-20 16:06:21,324 - INFO - Executando: Iniciando backend...
+2025-01-20 16:06:21,327 - INFO - Executando: cd /d m:\SS_SENTINNELL_WOK_FONTE\SENTINNELLIAWORKSPACE\backend && npm run start
+2025-01-20 16:06:21,990 - INFO - 
+2025-01-20 16:06:21,991 - INFO - > sentinnelliaworkspace-backend@1.0.0 start
+2025-01-20 16:06:21,993 - INFO - > node index.js
+2025-01-20 16:06:21,994 - INFO - 
+2025-01-20 16:06:22,267 - INFO - Erro: node:internal/modules/cjs/loader:1143
+  throw err;
+  ^
+
+Error: Cannot find module 'm:\SS_SENTINNELL_WOK_FONTE\SENTINNELLIAWORKSPACE\backend\index.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12)
+    at node:internal/main/run_main_module:28:49 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v18.20.5
+2025-01-20 16:06:25,199 - INFO - Executando: Instalando dependências do backend...
+2025-01-20 16:06:25,200 - INFO - Executando: cd /d m:\SS_SENTINNELL_WOK_FONTE\SENTINNELLIAWORKSPACE\backend && pip install -r requirements.txt
+2025-01-20 16:06:26,652 - INFO - Requirement already satisfied: flask==2.0.1 in m:\ss_sentinnell_wok_fonte\sentinnelliaworkspace\.venv\lib\site-packages (from -r requirements.txt (line 1)) (2.0.1)
+2025-01-20 16:06:26,653 - INFO - Requirement already satisfied: requests==2.26.0 in m:\ss_sentinnell_wok_fonte\sentinnelliaworkspace\.venv\lib\site-packages (from -r requirements.txt (line 2)) (2.26.0)
+2025-01-20 16:06:26,657 - INFO - Requirement already satisfied: Werkzeug>=2.0 in m:\ss_sentinnell_wok_fonte\sentinnelliaworkspace\.venv\lib\site-packages (from flask==2.0.1->-r requirements.txt (line 1)) (3.1.3)
+2025-01-20 16:06:26,660 - INFO - Requirement already satisfied: Jinja2>=3.0 in m:\ss_sentinnell_wok_fonte\sentinnelliaworkspace\.venv\lib\site-packages (from flask==2.0.1->-r requirements.txt (line 1)) (3.1.5)
+2025-01-20 16:06:26,662 - INFO - Requirement already satisfied: itsdangerous>=2.0 in m:\ss_sentinnell_wok_fonte\sentinnelliaworkspace\.venv\lib\site-packages (from flask==2.0.1->-r requirements.txt (line 1)) (2.2.0)
+2025-01-20 16:06:26,666 - INFO - Requirement already satisfied: click>=7.1.2 in m:\ss_sentinnell_wok_fonte\sentinnelliaworkspace\.venv\lib\site-packages (from flask==2.0.1->-r requirements.txt (line 1)) (8.1.8)
+2025-01-20 16:06:26,673 - INFO - Requirement already satisfied: urllib3<1.27,>=1.21.1 in m:\ss_sentinnell_wok_fonte\sentinnelliaworkspace\.venv\lib\site-packages (from requests==2.26.0->-r requirements.txt (line 2)) (1.26.20)
+2025-01-20 16:06:26,679 - INFO - Requirement already satisfied: certifi>=2017.4.17 in m:\ss_sentinnell_wok_fonte\sentinnelliaworkspace\.venv\lib\site-packages (from requests==2.26.0->-r requirements.txt (line 2)) (2024.12.14)
+2025-01-20 16:06:26,685 - INFO - Requirement already satisfied: charset-normalizer~=2.0.0 in m:\ss_sentinnell_wok_fonte\sentinnelliaworkspace\.venv\lib\site-packages (from requests==2.26.0->-r requirements.txt (line 2)) (2.0.12)
+2025-01-20 16:06:26,688 - INFO - Requirement already satisfied: idna<4,>=2.5 in m:\ss_sentinnell_wok_fonte\sentinnelliaworkspace\.venv\lib\site-packages (from requests==2.26.0->-r requirements.txt (line 2)) (3.10)
+2025-01-20 16:06:26,693 - INFO - Requirement already satisfied: colorama in m:\ss_sentinnell_wok_fonte\sentinnelliaworkspace\.venv\lib\site-packages (from click>=7.1.2->flask==2.0.1->-r requirements.txt (line 1)) (0.4.6)
+2025-01-20 16:06:26,705 - INFO - Requirement already satisfied: MarkupSafe>=2.0 in m:\ss_sentinnell_wok_fonte\sentinnelliaworkspace\.venv\lib\site-packages (from Jinja2>=3.0->flask==2.0.1->-r requirements.txt (line 1)) (3.0.2)
+2025-01-20 16:06:27,078 - INFO - Executado
+2025-01-20 16:06:30,564 - INFO - Executando: Iniciando backend...
+2025-01-20 16:06:30,565 - INFO - Executando: cd /d m:\SS_SENTINNELL_WOK_FONTE\SENTINNELLIAWORKSPACE\backend && npm run start
+2025-01-20 16:06:31,226 - INFO - 
+2025-01-20 16:06:31,228 - INFO - > sentinnelliaworkspace-backend@1.0.0 start
+2025-01-20 16:06:31,229 - INFO - > node index.js
+2025-01-20 16:06:31,232 - INFO - 
+2025-01-20 16:06:31,455 - INFO - Erro: node:internal/modules/cjs/loader:1143
+  throw err;
+  ^
+
+Error: Cannot find module 'm:\SS_SENTINNELL_WOK_FONTE\SENTINNELLIAWORKSPACE\backend\index.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12)
+    at node:internal/main/run_main_module:28:49 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v18.20.5
+2025-01-20 16:08:01,559 - DEBUG - Changed working directory to script location
+2025-01-20 16:08:04,641 - INFO - Executando: Instalando dependências do backend...
+2025-01-20 16:08:04,665 - INFO - Executando: cd /d m:\SS_SENTINNELL_WOK_FONTE\SENTINNELLIAWORKSPACE\backend && pip install -r requirements.txt
+2025-01-20 16:08:06,278 - INFO - Requirement already satisfied: flask==2.0.1 in m:\ss_sentinnell_wok_fonte\sentinnelliaworkspace\.venv\lib\site-packages (from -r requirements.txt (line 1)) (2.0.1)
+2025-01-20 16:08:06,280 - INFO - Requirement already satisfied: requests==2.26.0 in m:\ss_sentinnell_wok_fonte\sentinnelliaworkspace\.venv\lib\site-packages (from -r requirements.txt (line 2)) (2.26.0)
+2025-01-20 16:08:06,286 - INFO - Requirement already satisfied: Werkzeug>=2.0 in m:\ss_sentinnell_wok_fonte\sentinnelliaworkspace\.venv\lib\site-packages (from flask==2.0.1->-r requirements.txt (line 1)) (3.1.3)
+2025-01-20 16:08:06,287 - INFO - Requirement already satisfied: Jinja2>=3.0 in m:\ss_sentinnell_wok_fonte\sentinnelliaworkspace\.venv\lib\site-packages (from flask==2.0.1->-r requirements.txt (line 1)) (3.1.5)
+2025-01-20 16:08:06,289 - INFO - Requirement already satisfied: itsdangerous>=2.0 in m:\ss_sentinnell_wok_fonte\sentinnelliaworkspace\.venv\lib\site-packages (from flask==2.0.1->-r requirements.txt (line 1)) (2.2.0)
+2025-01-20 16:08:06,291 - INFO - Requirement already satisfied: click>=7.1.2 in m:\ss_sentinnell_wok_fonte\sentinnelliaworkspace\.venv\lib\site-packages (from flask==2.0.1->-r requirements.txt (line 1)) (8.1.8)
+2025-01-20 16:08:06,293 - INFO - Requirement already satisfied: urllib3<1.27,>=1.21.1 in m:\ss_sentinnell_wok_fonte\sentinnelliaworkspace\.venv\lib\site-packages (from requests==2.26.0->-r requirements.txt (line 2)) (1.26.20)
+2025-01-20 16:08:06,295 - INFO - Requirement already satisfied: certifi>=2017.4.17 in m:\ss_sentinnell_wok_fonte\sentinnelliaworkspace\.venv\lib\site-packages (from requests==2.26.0->-r requirements.txt (line 2)) (2024.12.14)
+2025-01-20 16:08:06,298 - INFO - Requirement already satisfied: charset-normalizer~=2.0.0 in m:\ss_sentinnell_wok_fonte\sentinnelliaworkspace\.venv\lib\site-packages (from requests==2.26.0->-r requirements.txt (line 2)) (2.0.12)
+2025-01-20 16:08:06,301 - INFO - Requirement already satisfied: idna<4,>=2.5 in m:\ss_sentinnell_wok_fonte\sentinnelliaworkspace\.venv\lib\site-packages (from requests==2.26.0->-r requirements.txt (line 2)) (3.10)
+2025-01-20 16:08:06,304 - INFO - Requirement already satisfied: colorama in m:\ss_sentinnell_wok_fonte\sentinnelliaworkspace\.venv\lib\site-packages (from click>=7.1.2->flask==2.0.1->-r requirements.txt (line 1)) (0.4.6)
+2025-01-20 16:08:06,311 - INFO - Requirement already satisfied: MarkupSafe>=2.0 in m:\ss_sentinnell_wok_fonte\sentinnelliaworkspace\.venv\lib\site-packages (from Jinja2>=3.0->flask==2.0.1->-r requirements.txt (line 1)) (3.0.2)
+2025-01-20 16:08:06,725 - INFO - Executado
+2025-01-20 16:08:11,489 - INFO - Executando: Iniciando backend...
+2025-01-20 16:08:11,491 - INFO - Executando: cd /d m:\SS_SENTINNELL_WOK_FONTE\SENTINNELLIAWORKSPACE\backend && node server.js
+2025-01-20 16:08:11,977 - INFO - Server is running on http://localhost:4000
+2025-01-20 16:08:18,624 - INFO - Executando: Instalando dependências do frontend...
+2025-01-20 16:08:18,627 - INFO - Executando: cd /d m:\SS_SENTINNELL_WOK_FONTE\SENTINNELLIAWORKSPACE\src && npm install
+2025-01-20 16:08:19,279 - INFO - Executando: Instalando dependências do frontend...
+2025-01-20 16:08:19,284 - INFO - Executando: cd /d m:\SS_SENTINNELL_WOK_FONTE\SENTINNELLIAWORKSPACE\src && npm install
+2025-01-20 16:08:23,064 - INFO - 
+2025-01-20 16:08:23,067 - INFO - up to date, audited 541 packages in 4s
+2025-01-20 16:08:23,070 - INFO - 
+2025-01-20 16:08:23,072 - INFO - 75 packages are looking for funding
+2025-01-20 16:08:23,076 - INFO - run `npm fund` for details
+2025-01-20 16:08:23,077 - INFO - 
+2025-01-20 16:08:23,079 - INFO - found 0 vulnerabilities
+2025-01-20 16:08:23,122 - INFO - Executado
+2025-01-20 16:08:23,627 - INFO - 
+2025-01-20 16:08:23,628 - INFO - up to date, audited 541 packages in 4s
+2025-01-20 16:08:23,629 - INFO - 
+2025-01-20 16:08:23,631 - INFO - 75 packages are looking for funding
+2025-01-20 16:08:23,633 - INFO - run `npm fund` for details
+2025-01-20 16:08:23,634 - INFO - 
+2025-01-20 16:08:23,636 - INFO - found 0 vulnerabilities
+2025-01-20 16:08:23,668 - INFO - Executado
+2025-01-20 16:08:27,150 - INFO - Executando: Construindo frontend...
+2025-01-20 16:08:27,152 - INFO - Executando: cd /d m:\SS_SENTINNELL_WOK_FONTE\SENTINNELLIAWORKSPACE\src && npm run build
+2025-01-20 16:08:27,906 - INFO - 
+2025-01-20 16:08:27,907 - INFO - > sentinnell-ia-workspace@1.0.0 build
+2025-01-20 16:08:27,908 - INFO - > webpack --mode production
+2025-01-20 16:08:27,909 - INFO - 
+2025-01-20 16:08:29,991 - INFO - assets by status 2.98 KiB [1m[32m[cached][39m[22m 1 asset
+2025-01-20 16:08:30,000 - INFO - Entrypoint [1mmain[39m[22m =
+2025-01-20 16:08:30,001 - INFO - 
+2025-01-20 16:08:30,003 - INFO - [1m[31mERROR[39m[22m in [1m[32mmain[39m[22m
+2025-01-20 16:08:30,006 - INFO - [1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './src/index.js' in 'm:\SS_SENTINNELL_WOK_FONTE\SENTINNELLIAWORKSPACE\src'[39m[22m
+2025-01-20 16:08:30,011 - INFO - resolve './src/index.js' in 'm:\SS_SENTINNELL_WOK_FONTE\SENTINNELLIAWORKSPACE\src'
+2025-01-20 16:08:30,015 - INFO - using description file: m:\SS_SENTINNELL_WOK_FONTE\SENTINNELLIAWORKSPACE\src\package.json (relative path: .)
+2025-01-20 16:08:30,019 - INFO - Field 'browser' doesn't contain a valid alias configuration
+2025-01-20 16:08:30,022 - INFO - using description file: m:\SS_SENTINNELL_WOK_FONTE\SENTINNELLIAWORKSPACE\src\package.json (relative path: ./src/index.js)
+2025-01-20 16:08:30,025 - INFO - no extension
+2025-01-20 16:08:30,027 - INFO - Field 'browser' doesn't contain a valid alias configuration
+2025-01-20 16:08:30,029 - INFO - [1m[31m        m:\SS_SENTINNELL_WOK_FONTE\SENTINNELLIAWORKSPACE\src\src\index.js doesn't exist[39m[22m
+2025-01-20 16:08:30,036 - INFO - .js
+2025-01-20 16:08:30,038 - INFO - Field 'browser' doesn't contain a valid alias configuration
+2025-01-20 16:08:30,041 - INFO - [1m[31m        m:\SS_SENTINNELL_WOK_FONTE\SENTINNELLIAWORKSPACE\src\src\index.js.js doesn't exist[39m[22m
+2025-01-20 16:08:30,045 - INFO - .jsx
+2025-01-20 16:08:30,049 - INFO - Field 'browser' doesn't contain a valid alias configuration
+2025-01-20 16:08:30,051 - INFO - [1m[31m        m:\SS_SENTINNELL_WOK_FONTE\SENTINNELLIAWORKSPACE\src\src\index.js.jsx doesn't exist[39m[22m
+2025-01-20 16:08:30,057 - INFO - as directory
+2025-01-20 16:08:30,059 - INFO - [1m[31m        m:\SS_SENTINNELL_WOK_FONTE\SENTINNELLIAWORKSPACE\src\src\index.js doesn't exist[39m[22m
+2025-01-20 16:08:30,061 - INFO - 
+2025-01-20 16:08:30,064 - INFO - [1m[31mERROR[39m[22m in [1m  [1m[31mError[39m[22m[1m: Child compilation [1m[31mfailed[39m[22m[1m:
+2025-01-20 16:08:30,070 - INFO - Module [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'm:\SS_SENTINNELL_WOK_FONTE\SENTINNELLI  AWORKSPACE\src\Home.html' in 'm:\SS_SENTINNELL_WOK_FONTE\SENTINNELLIAWORKSPACE  \src'
+2025-01-20 16:08:30,075 - INFO - ModuleNotFoundError: Module [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'm:\SS_SENTINNELL_  WOK_FONTE\SENTINNELLIAWORKSPACE\src\Home.html' in 'm:\SS_SENTINNELL_WOK_FONTE\  SENTINNELLIAWORKSPACE\src'
+2025-01-20 16:08:30,084 - INFO - at m:\SS_SENTINNELL_WOK_FONTE\SENTINNELLIAWORKSPACE\src\node_modules\webpa  ck\lib\Compilation.js:2123:28
+2025-01-20 16:08:30,087 - INFO - at m:\SS_SENTINNELL_WOK_FONTE\SENTINNELLIAWORKSPACE\src\node_modules\webpa  ck\lib\NormalModuleFactory.js:923:13
+2025-01-20 16:08:30,091 - INFO - at eval (eval at create (m:\SS_SENTINNELL_WOK_FONTE\SENTINNELLIAWORKSPACE\  src\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:10:1)
+2025-01-20 16:08:30,094 - INFO - at m:\SS_SENTINNELL_WOK_FONTE\SENTINNELLIAWORKSPACE\src\node_modules\webpa  ck\lib\NormalModuleFactory.js:339:22
+2025-01-20 16:08:30,097 - INFO - at eval (eval at create (m:\SS_SENTINNELL_WOK_FONTE\SENTINNELLIAWORKSPACE\  src\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:9:1)
+2025-01-20 16:08:30,103 - INFO - at m:\SS_SENTINNELL_WOK_FONTE\SENTINNELLIAWORKSPACE\src\node_modules\webpa  ck\lib\NormalModuleFactory.js:520:22
+2025-01-20 16:08:30,105 - INFO - at m:\SS_SENTINNELL_WOK_FONTE\SENTINNELLIAWORKSPACE\src\node_modules\webpa  ck\lib\NormalModuleFactory.js:155:10
+2025-01-20 16:08:30,107 - INFO - at m:\SS_SENTINNELL_WOK_FONTE\SENTINNELLIAWORKSPACE\src\node_modules\webpa  ck\lib\NormalModuleFactory.js:783:25
+2025-01-20 16:08:30,110 - INFO - at m:\SS_SENTINNELL_WOK_FONTE\SENTINNELLIAWORKSPACE\src\node_modules\webpa  ck\lib\NormalModuleFactory.js:1008:8
+2025-01-20 16:08:30,114 - INFO - at m:\SS_SENTINNELL_WOK_FONTE\SENTINNELLIAWORKSPACE\src\node_modules\webpa  ck\lib\NormalModuleFactory.js:1137:5
+2025-01-20 16:08:30,118 - INFO - 
+2025-01-20 16:08:30,120 - INFO - - Compilation.js:2123
+2025-01-20 16:08:30,122 - INFO - [src]/[webpack]/lib/Compilation.js:2123:28
+2025-01-20 16:08:30,125 - INFO - 
+2025-01-20 16:08:30,126 - INFO - - NormalModuleFactory.js:923
+2025-01-20 16:08:30,129 - INFO - [src]/[webpack]/lib/NormalModuleFactory.js:923:13
+2025-01-20 16:08:30,131 - INFO - 
+2025-01-20 16:08:30,135 - INFO - 
+2025-01-20 16:08:30,137 - INFO - - NormalModuleFactory.js:339
+2025-01-20 16:08:30,138 - INFO - [src]/[webpack]/lib/NormalModuleFactory.js:339:22
+2025-01-20 16:08:30,140 - INFO - 
+2025-01-20 16:08:30,142 - INFO - 
+2025-01-20 16:08:30,143 - INFO - - NormalModuleFactory.js:520
+2025-01-20 16:08:30,144 - INFO - [src]/[webpack]/lib/NormalModuleFactory.js:520:22
+2025-01-20 16:08:30,145 - INFO - 
+2025-01-20 16:08:30,147 - INFO - - NormalModuleFactory.js:155
+2025-01-20 16:08:30,157 - INFO - [src]/[webpack]/lib/NormalModuleFactory.js:155:10
+2025-01-20 16:08:30,159 - INFO - 
+2025-01-20 16:08:30,160 - INFO - - NormalModuleFactory.js:783
+2025-01-20 16:08:30,161 - INFO - [src]/[webpack]/lib/NormalModuleFactory.js:783:25
+2025-01-20 16:08:30,163 - INFO - 
+2025-01-20 16:08:30,167 - INFO - - NormalModuleFactory.js:1008
+2025-01-20 16:08:30,170 - INFO - [src]/[webpack]/lib/NormalModuleFactory.js:1008:8
+2025-01-20 16:08:30,172 - INFO - 
+2025-01-20 16:08:30,174 - INFO - - NormalModuleFactory.js:1137
+2025-01-20 16:08:30,175 - INFO - [src]/[webpack]/lib/NormalModuleFactory.js:1137:5
+2025-01-20 16:08:30,176 - INFO - 
+2025-01-20 16:08:30,178 - INFO - - child-compiler.js:211
+2025-01-20 16:08:30,181 - INFO - [src]/[html-webpack-plugin]/lib/child-compiler.js:211:18
+2025-01-20 16:08:30,184 - INFO - 
+2025-01-20 16:08:30,187 - INFO - - Compiler.js:629 finalCallback
+2025-01-20 16:08:30,188 - INFO - [src]/[webpack]/lib/Compiler.js:629:5
+2025-01-20 16:08:30,190 - INFO - 
+2025-01-20 16:08:30,191 - INFO - - Compiler.js:664
+2025-01-20 16:08:30,193 - INFO - [src]/[webpack]/lib/Compiler.js:664:11
+2025-01-20 16:08:30,194 - INFO - 
+2025-01-20 16:08:30,196 - INFO - - Compiler.js:1350
+2025-01-20 16:08:30,199 - INFO - [src]/[webpack]/lib/Compiler.js:1350:17
+2025-01-20 16:08:30,202 - INFO - 
+2025-01-20 16:08:30,204 - INFO - 
+2025-01-20 16:08:30,206 - INFO - - Hook.js:18 Hook.CALL_ASYNC_DELEGATE [as _callAsync]
+2025-01-20 16:08:30,208 - INFO - [src]/[tapable]/lib/Hook.js:18:14
+2025-01-20 16:08:30,209 - INFO - 
+2025-01-20 16:08:30,211 - INFO - - Compiler.js:1346
+2025-01-20 16:08:30,212 - INFO - [src]/[webpack]/lib/Compiler.js:1346:33
+2025-01-20 16:08:30,215 - INFO - 
+2025-01-20 16:08:30,218 - INFO - - Compilation.js:2938 finalCallback
+2025-01-20 16:08:30,220 - INFO - [src]/[webpack]/lib/Compilation.js:2938:11
+2025-01-20 16:08:30,222 - INFO - 
+2025-01-20 16:08:30,224 - INFO - - Compilation.js:3251
+2025-01-20 16:08:30,225 - INFO - [src]/[webpack]/lib/Compilation.js:3251:11
+2025-01-20 16:08:30,226 - INFO - 
+2025-01-20 16:08:30,227 - INFO - 
+2025-01-20 16:08:30,229 - INFO - [39m[22m
+2025-01-20 16:08:30,232 - INFO - 
+2025-01-20 16:08:30,233 - INFO - [1m[31m1 ERROR in child compilations (Use 'stats.children: true' resp. '--stats-children' for more details)[39m[22m
+2025-01-20 16:08:30,238 - INFO - webpack 5.97.1 compiled with [1m[31m3 errors[39m[22m in 618 ms
+2025-01-20 16:08:30,241 - INFO - Erro:
+2025-01-20 16:14:34,195 - DEBUG - Changed working directory to script location
+2025-01-20 16:14:51,608 - INFO - Executando: Iniciando backend...
+2025-01-20 16:14:51,610 - INFO - Executando: cd /d m:\SS_SENTINNELL_WOK_FONTE\SENTINNELLIAWORKSPACE\backend && node server.js
+2025-01-20 16:15:00,144 - INFO - Executando: Instalando dependências do frontend...
+2025-01-20 16:15:00,146 - INFO - Executando: cd /d m:\SS_SENTINNELL_WOK_FONTE\SENTINNELLIAWORKSPACE\src && npm install
+2025-01-20 16:15:06,162 - INFO - Executado
+2025-01-20 16:15:09,190 - INFO - Executando: Construindo frontend...
+2025-01-20 16:15:09,192 - INFO - Executando: cd /d m:\SS_SENTINNELL_WOK_FONTE\SENTINNELLIAWORKSPACE\src && npm run build
+2025-01-20 16:15:44,968 - INFO - Executado
+2025-01-20 16:16:21,388 - INFO - Executando: Instalando dependências do frontend...
+2025-01-20 16:16:21,392 - INFO - Executando: cd /d m:\SS_SENTINNELL_WOK_FONTE\SENTINNELLIAWORKSPACE\src && npm install
+2025-01-20 16:16:26,248 - INFO - Executado
+2025-01-20 16:16:27,686 - INFO - Executando: Corrigindo vulnerabilidades do npm...
+2025-01-20 16:16:27,688 - INFO - Executando: cd /d m:\SS_SENTINNELL_WOK_FONTE\SENTINNELLIAWORKSPACE\src && npm audit fix --force
+2025-01-20 16:16:32,054 - INFO - Executado
+2025-01-20 16:16:33,247 - INFO - Executando: Construindo frontend...
+2025-01-20 16:16:33,253 - INFO - Executando: cd /d m:\SS_SENTINNELL_WOK_FONTE\SENTINNELLIAWORKSPACE\src && npm run build
+2025-01-20 16:17:03,928 - INFO - Executado
+2025-01-20 16:17:06,872 - INFO - Executado
+2025-01-20 16:21:31,074 - DEBUG - Changed working directory to script location
+2025-01-20 16:21:34,746 - INFO - Executando: Iniciando backend...
+2025-01-20 16:21:34,749 - INFO - Executando: cd /d m:\SS_SENTINNELL_WOK_FONTE\SENTINNELLIAWORKSPACE\backend && node server.js
+2025-01-20 16:21:39,506 - INFO - Executando: Instalando dependências do frontend...
+2025-01-20 16:21:39,508 - INFO - Executando: cd /d m:\SS_SENTINNELL_WOK_FONTE\SENTINNELLIAWORKSPACE\src && npm install
+2025-01-20 16:21:43,725 - INFO - Executado
+2025-01-20 16:21:44,770 - INFO - Executando: Construindo frontend...
+2025-01-20 16:21:44,772 - INFO - Executando: cd /d m:\SS_SENTINNELL_WOK_FONTE\SENTINNELLIAWORKSPACE\src && npm run build
+2025-01-20 16:22:06,334 - INFO - Executando: Iniciando frontend...
+2025-01-20 16:22:06,337 - INFO - Executando: cd /d m:\SS_SENTINNELL_WOK_FONTE\SENTINNELLIAWORKSPACE\src && npm start
+2025-01-20 16:22:21,135 - INFO - Executando: Atualizando dependências do frontend...
+2025-01-20 16:22:21,137 - INFO - Executando: cd /d m:\SS_SENTINNELL_WOK_FONTE\SENTINNELLIAWORKSPACE\src && npm update
+2025-01-20 16:23:00,556 - INFO - Executado
+2025-01-20 16:23:13,497 - INFO - Executado
+2025-01-20 16:23:16,573 - INFO - Executado
+2025-01-20 16:25:49,105 - DEBUG - Changed working directory to script location
+2025-01-20 16:25:50,794 - INFO - Executando: Iniciando backend...
+2025-01-20 16:25:50,796 - INFO - Executando: cd /d m:\SS_SENTINNELL_WOK_FONTE\SENTINNELLIAWORKSPACE\backend && node server.js
+2025-01-20 16:25:53,152 - INFO - Executando: Iniciando frontend...
+2025-01-20 16:25:53,154 - INFO - Executando: cd /d m:\SS_SENTINNELL_WOK_FONTE\SENTINNELLIAWORKSPACE\src && npm start
+2025-01-20 16:26:04,650 - INFO - Executando: Construindo frontend...
+2025-01-20 16:26:04,653 - INFO - Executando: cd /d m:\SS_SENTINNELL_WOK_FONTE\SENTINNELLIAWORKSPACE\src && npm run build
+2025-01-20 16:27:08,570 - INFO - Executando: Iniciando frontend...
+2025-01-20 16:27:08,572 - INFO - Executando: cd /d m:\SS_SENTINNELL_WOK_FONTE\SENTINNELLIAWORKSPACE\src && npm start
+2025-01-20 16:27:14,981 - INFO - Executado
+2025-01-20 16:37:09,868 - DEBUG - Changed working directory to script location
+2025-01-20 16:37:19,736 - INFO - Executando: Construindo frontend...
+2025-01-20 16:37:19,827 - INFO - Executando: cd /d m:\SS_SENTINNELL_WOK_FONTE\SENTINNELLIAWORKSPACE\src && npm run build
+2025-01-20 16:39:48,034 - INFO - Executado
+2025-01-20 16:39:52,015 - INFO - Executando: Iniciando frontend...
+2025-01-20 16:39:52,018 - INFO - Executando: cd /d m:\SS_SENTINNELL_WOK_FONTE\SENTINNELLIAWORKSPACE\src && npm start
+2025-01-20 16:39:57,777 - INFO - Executado

@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.homePage {
+  text-align: center;
+}
+
+.header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.siteName {
+  font-size: 1.5em;
+}
+
+.languageSwitch .flag {
+  width: 30px;
+  margin: 0 10px;
+  cursor: pointer;
+}
