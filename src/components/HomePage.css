@@ -1,0 +1,145 @@
+body {
+    margin: 0; /* Remove margem padrão do corpo */
+}
+
+/* Container para toda a página inicial */
+.homepage-container {
+    display: flex; /* Usar layout flexbox */
+    flex-direction: column; /* Organizar filhos em uma coluna */
+    align-items: center; /* Centralizar filhos horizontalmente */
+    justify-content: flex-start; /* Alinhar filhos ao topo */
+    padding: 0px; /* Sem padding */
+    background-color: #ffffff; /* Fundo branco */
+    min-height: 100vh; /* Altura mínima de 100% da altura da janela de visualização */
+}
+
+/* Seção de cabeçalho da página inicial */
+.homepage-header {
+    display: flex; /* Usar layout flexbox */
+    flex-direction: column; /* Organizar filhos em uma coluna */
+    align-items: center; /* Centralizar filhos horizontalmente */
+    justify-content: center; /* Centralizar filhos verticalmente */
+    background-color: #0c243d; /* Fundo azul escuro */
+    width: 100%; /* Largura total */
+}
+
+/* Logo no cabeçalho */
+.homepage-logo {
+    width: 400px; /* Largura fixa */
+    margin-bottom: 20px; /* Espaço abaixo do logo */
+}
+
+@media (max-width: 480px) {
+    .homepage-logo {
+        width: 150px; /* Largura do logo */
+    }
+}
+
+/* Título no cabeçalho */
+.homepage-title {
+    margin-bottom: 10px; /* Espaço abaixo do título */
+    text-align: center; /* Centralizar texto */
+}
+
+@media (max-width: 768px) {
+    .homepage-title {
+        font-size: 2em; /* Tamanho da fonte do título */
+    }
+}
+
+@media (max-width: 480px) {
+    .homepage-title {
+        font-size: 1.5em; /* Tamanho da fonte do título */
+    }
+}
+
+/* Seletor de idioma */
+.language-switch {
+    display: flex; /* Usar layout flexbox */
+    gap: 10px; /* Espaço entre os itens */
+}
+
+/* Bandeira */
+.flag {
+    width: 30px; /* Largura fixa */
+    cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+}
+
+@media (max-width: 480px) {
+    .flag {
+        width: 25px; /* Largura da bandeira */
+    }
+}
+
+/* Conteúdo da página inicial */
+.homepage-content {
+    max-width: 800px; /* Largura máxima */
+    text-align: center; /* Centralizar texto */
+    color: #666; /* Cor do texto */
+}
+
+/* Seção de notícias */
+.news-section {
+    margin: 20px 0; /* Margem acima e abaixo */
+}
+
+/* Lista de notícias */
+.news-list {
+    display: flex; /* Usar layout flexbox */
+    flex-wrap: wrap; /* Permitir quebra de linha */
+    gap: 20px; /* Espaço entre os itens */
+    justify-content: center; /* Centralizar itens */
+}
+
+/* Item de notícia */
+.news-item {
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo branco com opacidade */
+    padding: 15px; /* Padding ao redor do conteúdo */
+    border-radius: 10px; /* Cantos arredondados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    width: 100%; /* Largura total */
+    max-width: 300px; /* Largura máxima */
+    transition: transform 0.3s, box-shadow 0.3s; /* Transição suave */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.news-item:hover {
+    transform: translateY(-5px); /* Mover para cima */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra mais intensa */
+}
+
+@media (max-width: 768px) {
+    .news-item {
+        max-width: 100%; /* Largura máxima */
+    }
+}
+
+.news-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 8px;
+}
+
+/* Botão da página inicial */
+.homepage-button {
+    background-color: #007bff; /* Fundo azul */
+    color: white; /* Texto branco */
+    padding: 10px 20px; /* Padding ao redor do texto */
+    border: none; /* Sem borda */
+    border-radius: 5px; /* Cantos arredondados */
+    cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+    text-decoration: none; /* Sem sublinhado */
+}
+
+.homepage-button:hover {
+    background-color: #0056b3; /* Fundo azul mais escuro */
+}
+
+@media (max-width: 480px) {
+    .homepage-button {
+        padding: 8px 16px; /* Padding do botão */
+    }
+}

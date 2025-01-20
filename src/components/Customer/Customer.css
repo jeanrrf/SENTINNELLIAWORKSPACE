@@ -1,0 +1,48 @@
+.customerPage {
+  font-family: Arial, sans-serif;
+}
+
+.customerPage form {
+  margin-bottom: 20px;
+}
+
+.customerPage label {
+  display: block;
+  margin-top: 10px;
+}
+
+.customerPage input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+.customerPage button {
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.customerPage button:hover {
+  background-color: #45a049;
+}
+
+.customerPage ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.customerPage li {
+  margin: 10px 0;
+}
+
+.customerPage .log {
+  background-color: #f1f1f1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  max-height: 200px;
+  overflow-y: auto;
+}

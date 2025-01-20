@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import logo from '../assets/logo.png';
 import englandFlag from '../assets/england-flag.png';
 import brazilFlag from '../assets/brazil-flag.png';
+import './HomePage.css';
 
 const translations = {
   en: {
@@ -26,9 +27,9 @@ const HomePage = () => {
   useEffect(() => {
     const fetchNews = async () => {
       try {
-        const response = await fetch('https://newsapi.org/v2/top-headlines?country=us&apiKey=YOUR_API_KEY');
+        const response = await fetch('https://newsapi.org/v2/top-headlines?country=us&apiKey=5a0675693df641c68b854bd52fe10ec1');
         const data = await response.json();
-        setNews(data.articles);
+        setNews(data.articles.slice(0, 4)); // Limitar a 4 notícias
       } catch (error) {
         console.error('Error fetching news:', error);
       }
@@ -38,46 +39,45 @@ const HomePage = () => {
   }, []);
 
   return (
-    <div className="homePage light">
-      <header className="header">
-        <img src={logo} alt="Logo" className="logo" />
-        <h1 className="siteName">{translations[language].siteName}</h1>
-        <div className="headerRight">
-          <div className="languageSwitch">
-            <img
-              src={englandFlag}
-              alt="English"
-              className="flag"
-              onClick={() => handleLanguageChange('en')}
-            />
-            <img
-              src={brazilFlag}
-              alt="Portuguese"
-              className="flag"
-              onClick={() => handleLanguageChange('pt')}
-            />
-          </div>
+    <div className="homepage-container">
+      <header className="homepage-header">
+        <img src={logo} alt="Logo" className="homepage-logo" />
+        <h1 className="homepage-title">{translations[language].siteName}</h1>
+        <div className="language-switch">
+          <img
+            src={englandFlag}
+            alt="English"
+            className="flag"
+            onClick={() => handleLanguageChange('en')}
+          />
+          <img
+            src={brazilFlag}
+            alt="Portuguese"
+            className="flag"
+            onClick={() => handleLanguageChange('pt')}
+          />
         </div>
       </header>
-      <div>
+      <div className="homepage-content">
         <h1>{translations[language].welcome}</h1>
-        <div className="newsCard">
+        <div className="news-section">
           <h2>Latest News</h2>
           {news && news.length > 0 ? (
-            <ul>
+            <div className="news-list">
               {news.map((article, index) => (
-                <li key={index}>
+                <div key={index} className="news-item">
                   <a href={article.url} target="_blank" rel="noopener noreferrer">
-                    {article.title}
+                    <img src={article.urlToImage} alt={article.title} className="news-image" />
+                    <p>{article.title}</p>
                   </a>
-                </li>
+                </div>
               ))}
-            </ul>
+            </div>
           ) : (
             <p>Loading news...</p>
           )}
         </div>
-        <Link to="/register">Register a new customer</Link>
+        <Link to="/register" className="homepage-button">Register a new customer</Link>
       </div>
     </div>
   );
